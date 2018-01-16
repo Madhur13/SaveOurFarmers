@@ -1,0 +1,277 @@
+/*pseudo Scroller*/
+
+::-webkit-scrollbar {
+    width: 7px;
+}
+
+::-webkit-scrollbar-track {
+	background-color: white;
+/*    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); */
+    border-radius: 0px;
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: #01A4D5;
+	opacity: 0.2;
+    border-radius: 2px;
+/*    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); */
+}
+h2{
+  color:#0186D5;
+}
+p{
+  color: grey;
+}
+a{
+  color:#FF7302;
+}
+h4{
+  color:#FF7302;
+}
+a:hover{
+  color:#0186D5;
+}
+#sidebar-wrapper{
+  background:white;
+}
+.sidebar-nav li a{
+  color: #0186D5;
+}
+.sidebar-nav li a:hover{
+  color: white;
+}
+.sidebar-nav > li{
+  margin-top: 5px;
+}
+.btn{
+  background-color: #0186D5;
+  border:none;
+  color: white;
+}
+.btn:hover{
+  background-color:#FF7302;
+  color: white;
+}
+/*#FF7302*/
+.top{
+  margin-top: 20px;
+}
+.big-logo{
+  margin-top: 80px;
+}
+.tag-line > h4{
+  padding-top: 5px;
+  color: white;
+  background-color: #0186D5;
+  border-radius: 4%;
+  width: 20%;
+  height: 30px;
+}
+.search{
+  margin-top: 20px;
+}
+.select2{
+  width: 20%;
+}
+.quick{
+  margin-top: 30px;
+}
+.quick p{
+  margin-top: 10px;
+}
+.reviewed{
+  margin-top: 30px;
+}
+.footer{
+  margin-top: 30px;
+  padding: inherit;
+  background-color: #0186D5;
+  color:white;
+  border-top: 1px rgba(121, 117, 117, 0.22) solid;
+  padding-bottom: 20px;
+  text-align: left;
+}
+.footer p{
+  color:white;
+}
+.footer-widget > div > a {
+  color:white;
+}
+.footer-widget > div > a:hover {
+  color:white;
+}
+.footer-social > ul > li > a > i {
+  color:white;
+}
+footer .media-body a {
+  color:white;
+}
+footer .media-body a:hover {
+  color:white;
+}
+.hotel-name{
+  margin-top: 100px;
+}
+.city{
+  color: grey;
+  font-size: 20px;
+}
+.tabs{
+  padding: 10px 10px;
+  margin-top: 20px;
+}
+.tabs > ul > li > a {
+  border: 1px rgba(121, 117, 117, 0.22) solid;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 10px 20px;
+
+}
+.tabs > ul > li > a:hover {
+  background-color: white;
+}
+.contactno{
+  color: green;
+  font-size: 20px;
+}
+.remark{
+  color: grey;
+  font-size: 15px;
+}
+.cuisines{
+  color: blue;
+  font-size:15px;
+}
+.cost{
+  color: grey;
+  font-size: 15px;
+}
+.hours{
+  color: grey;
+  font-size: 15px;
+}
+.address{
+  color: grey;
+  font-size: 15px;
+}
+.highlight{
+  color: grey;
+  font-size: 15px;
+}
+.featured{
+  color: grey;
+  font-size: 15px;
+}
+#login{
+  margin-top: 20px;
+}
+#register{
+  margin-top: 20px;
+}
+.review{
+  float:left;
+  margin-top: 35px;
+  }
+.review-area{
+  float: left;
+  margin-top: 20px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.rating2{
+  direction: inherit;
+  float:left;
+  margin-top: 10px;
+}
+.rate{
+  background-color: #0186D5;
+  padding: 10px 20px;
+  border-radius: 12%;
+  width:5%;
+  color:white;
+}
+#to-top{
+  background-color: #01A4D5;
+}
+.avatar{
+  width: auto;
+  height: 150px;
+}
+
+.card{
+  border:  1px rgba(121, 117, 117, 0.22) solid;
+  border-radius: 2%;
+  width:20%;
+  margin:10px;
+  height: 250px;
+  display: inline-block;
+}
+.js-example-basic-single{
+  width: 200px;
+}
+input[type=date],input[type=time],input[type=number],input[type=text]{
+  width: 150px;
+  display: inline-block;
+}
+.card1{
+  /*width: 100%;*/
+  height: 200px;
+  border: 1px solid grey;
+}
+.card1 .sale-img{
+  width: 20%;
+  float: left;
+  margin-top: 25px;
+}
+.card1 .sale-img > img{
+  width: 150px;
+  height: 150px;
+  margin-left: 10px;
+  border: 1px solid grey;
+}
+.sale-button{
+  margin-top: 20px;
+}
+.time{
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+  height: 50px;
+  background-color: #0186D5;
+}
+.time > h4{
+  margin-top: 5px;
+}
+.time > p{
+  margin-bottom: 5px;
+  text-align: center;
+  vertical-align: middle;
+  color: white;
+}
+.side-card{
+  margin-top: 20px;
+  border: 1px solid grey;
+  width: 100%;
+  height: auto;
+}
+.side-card .center{
+  width: auto;
+  background-color: blue;
+  height: 2px;
+}
+.well {
+  margin-top: 10px;
+}
+#go{
+  margin-top: 25px;
+}
+.name{
+  color: white;
+  /*background-color: white;*/
+  padding: 10px;
+}
+@media only screen and (max-width:800px){
+  .give-margin{
+    margin-top: 100px;
+  }
+}
